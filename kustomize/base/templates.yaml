@@ -45,7 +45,7 @@ spec:
       - name: image_name
       - name: tag
     script:
-      image: slavicviking/kustomize:4.3.0
+      image: slavicviking/docker-kustomize:4.3.0
       command: [sh]
       source: |
         set -e
